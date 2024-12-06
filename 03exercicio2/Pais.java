@@ -33,5 +33,13 @@ class Pais {
         this.dimensao = dimensao;
     }
 
-
+    public boolean equals(Object object) {
+        if(object instanceof Pais) {
+            Pais novoPais = (Pais)object;
+            if(this.nome.equals(novoPais.nome) && this.capital.equals(novoPais.capital)) {
+                return true;
+            }
+        }
+        return false;
+    }
 }
