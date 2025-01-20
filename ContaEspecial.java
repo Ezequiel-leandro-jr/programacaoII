@@ -16,5 +16,16 @@ public class ContaEspecial extends Conta{
         return false;
     }
 
+    public double getLimite() {
+        return this.limite;
+    } 
+
+    @Override
+    public String toString(){
+        return "Número: " + this.getNumero() + "\nSaldo: " + this.getSaldo() + "\nLimite: " + this.getLimite();
+    }
+
+
+
 
 }

@@ -6,7 +6,6 @@ public class Teste {
         ContaEspecial ce = new ContaEspecial("333", 500);
         ce.creditar(1000);
 
-        conta.transferir(500, ce);
 
         System.out.println(conta);
         System.out.println("-------");
