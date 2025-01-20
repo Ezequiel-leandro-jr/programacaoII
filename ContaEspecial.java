@@ -1,4 +1,5 @@
-public class ContaEspecial extends Conta {
+public class ContaEspecial extends Conta{
+
     private double limite;
 
     public ContaEspecial(String numero, double limite){
@@ -6,13 +7,14 @@ public class ContaEspecial extends Conta {
         this.limite = limite;
     }
 
-    public double getLimite(){
-        return this.limite;
+
+    public boolean debitar (double valor){
+        if ((this.getSaldo()+this.limite)>=valor){
+            super.debitar2(valor);
+            return true;
+        }
+        return false;
     }
 
-    public void debitar(double debito){
-        if(this.getSaldo() + this.getLimite() >= debito) {
-            super.debitar(debito);
-        }
-    }
+
 }
