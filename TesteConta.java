@@ -1,4 +1,4 @@
-public class Teste {
+public class TesteConta {
     public static void main(String[] args) {
         Conta conta = new Conta("111");
         conta.creditar(100);
