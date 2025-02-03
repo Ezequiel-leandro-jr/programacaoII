@@ -10,8 +10,6 @@ Aluno: Ezequiel Leandro da Silva Júnior
 
 _____________________________________________________________________
 
-1° QUESTÃO
------------
 
 
 
@@ -30,4 +28,7 @@ V. Na verdade é o contrário: a herança de um objeto representa as caracterís
 ________________________________________________________________________
 
 
+3° QUESTÃO
+-----------
 
+Resposta letra D (O professor informou que não precisa justificar)
